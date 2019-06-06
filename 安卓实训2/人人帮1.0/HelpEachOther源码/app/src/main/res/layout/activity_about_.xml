@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <include layout="@layout/detial_title_bar"
+        android:id="@+id/include" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="47dp"
+        android:src="@mipmap/peoplepp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/version_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="人人帮"
+        android:textColor="#000"
+        android:textSize="19dp" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="检查更新"
+            android:textColor="#000"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/version_code_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="V 1.0.0"
+            android:textSize="16dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textViojd"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="0dp"
+        android:background="#FFE1DEDE" />
+
+</LinearLayout>

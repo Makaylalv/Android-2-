@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/rl_"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <include layout="@layout/detial_title_bar"/>
+        <TextView
+            android:id="@+id/textVierrw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="3dp"
+            android:text="物品信息:"
+            android:textColor="#1296db"
+            android:textSize="12dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignStart="@+id/send"
+            android:layout_below="@+id/textView"
+            android:background="#1296db"
+            android:id="@+id/textViewvvvvv5s8jd"
+            android:layout_alignLeft="@+id/send" />
+        <LinearLayout
+            android:id="@+id/ll_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="1dp"
+                android:text="物品名称:"
+                android:drawableLeft="@drawable/things"
+                android:gravity="center_vertical"
+                android:textColor="#FF232428"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/forhelp_in_thing_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="请输入物品名称"
+                android:layout_marginRight="5dp"
+                android:textSize="14dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="13dp"
+                android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_take_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViehhhw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="取件地址:"
+                android:drawableLeft="@drawable/take_address"
+                android:gravity="center_vertical"
+                android:textColor="#FF232428"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/forhelp_in_take_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="请输入待取物品的地址"
+                android:layout_marginRight="5dp"
+                android:textSize="14dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textVievvvvvvvrrw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_marginBottom="3dp"
+            android:text="您的信息:"
+            android:textColor="#1296db"
+            android:textSize="12dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#1296db"
+            android:id="@+id/textViewvvvvv5s8jffdfdd" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewsd"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="10dp"
+                android:text="接收时间:"
+                android:drawableLeft="@drawable/send_time"
+                android:gravity="center_vertical"
+                android:textColor="#FF232428"
+                android:textSize="14dp" />
+            <RadioGroup
+                android:id="@+id/rg_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/jinkuai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="尽快"
+                    android:padding="1dp"
+                    android:checked="true"
+                    android:textColor="@color/for_help_selector"
+                    android:textSize="16dp" />
+                <RadioButton
+                    android:id="@+id/lingyue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:text="另约"
+                    android:textColor="@color/for_help_selector"
+                    android:textSize="16dp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/time_selector"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="46dp"
+                android:text="点击设置时间"
+                android:gravity="center"
+                android:textColor="#1296db"
+                android:visibility="invisible"
+                android:textSize="13dp"
+                android:background="@drawable/bg_time_selector"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_alignStart="@+id/send"
+            android:layout_below="@+id/textView"
+            android:background="#FFE1DEDE"
+            android:id="@+id/textView5s8fj"
+            android:layout_alignLeft="@+id/send" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="0dp"
+            android:text="点击选择地址"
+            android:textSize="9dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_alignStart="@+id/send"
+            android:layout_below="@+id/textView"
+            android:background="#FFE1DEDE"
+            android:id="@+id/textView5s8"
+            android:layout_alignLeft="@+id/send" />
+        <LinearLayout
+            android:id="@+id/ll_myinfo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_forhelp_address_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:text=""
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:id="@+id/tv_forhelp_address_tel"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="24dp"
+                    android:gravity="right|center_vertical"
+                    android:textSize="15dp"
+                    android:textColor="#2e2e2e"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_forhelp_address_des"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/address_yellow"
+                android:text="点我设置地址"
+                android:textSize="14dp"
+                android:textColor="#2e2e2e" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="0dp"
+            android:layout_alignStart="@+id/send"
+            android:layout_below="@+id/textView"
+            android:background="#FFE1DEDE"
+            android:id="@+id/textView5s8j"
+            android:layout_alignLeft="@+id/send" />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/vvvtextViewsffv3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:text="备注:"
+                android:drawableLeft="@drawable/beizhu"
+                android:gravity="center_vertical"
+                android:textColor="#FF232428"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/forhelp_in_beizhu"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="在此留下备注内容哦"
+                android:layout_marginRight="5dp"
+                android:textSize="14dp"
+                android:layout_marginLeft="55dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_alignStart="@+id/send"
+            android:layout_below="@+id/textView"
+            android:background="#FFE1DEDE"
+            android:id="@+id/texs8j"
+            android:layout_alignLeft="@+id/send" />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/vvvteViewsffv3"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:text="快递单号密码"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/et_password"
+                android:textColor="#FF232428"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/forhelp_in_password"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:layout_gravity="center_vertical"
+                android:hint="       此内容仅帮助你的人可见"
+                android:layout_marginRight="5dp"
+                android:textColor="#ff0000"
+                android:textSize="14dp"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_sendmess"
+            app:cardBackgroundColor="#1296db"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布"
+                android:textSize="16dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#fff"
+                android:layout_marginTop="11dp"
+                />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

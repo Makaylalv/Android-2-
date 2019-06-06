@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_fragment"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="550dp"
+    android:orientation="vertical">
+    <com.john.software.helpeachother.code.Util.ViewChangeUtils.NoScrollViewPager
+        android:id="@+id/vp_fragment"
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.john.software.helpeachother.code.Util.ViewChangeUtils.NoScrollViewPager>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:fitsSystemWindows="true"
+        android:background="#FFD1CFCF"/>
+
+    <!-- android:fitsSystemWindows="true"-->
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:background="#fff">
+
+        <RadioButton
+            android:layout_height="50dp"
+            android:id="@+id/rb_help"
+            style="@style/Bottom_tab_styles"
+            android:layout_marginTop="1dp"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_home_selector"
+            android:text="首页"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:layout_height="50dp"
+            android:id="@+id/rb_forhelp"
+            style="@style/Bottom_tab_styles"
+            android:layout_marginTop="1dp"
+            android:drawableTop="@drawable/tab_news_selector"
+            android:text="帮我"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:layout_height="50dp"
+            android:id="@+id/rb_record"
+            style="@style/Bottom_tab_styles"
+            android:layout_marginTop="1dp"
+            android:drawableTop="@drawable/tab_gov_selector"
+            android:text="记录"
+            android:textSize="12dp"/>
+
+        <RadioButton
+            android:layout_height="50dp"
+            android:id="@+id/rb_setting"
+            style="@style/Bottom_tab_styles"
+            android:layout_marginTop="1dp"
+            android:drawableTop="@drawable/tab_setting_selector"
+            android:text="我的"
+            android:textSize="12dp"/>
+    </RadioGroup>
+</LinearLayout>

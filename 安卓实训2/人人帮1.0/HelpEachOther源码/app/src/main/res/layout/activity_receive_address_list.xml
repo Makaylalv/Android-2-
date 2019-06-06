@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <include layout="@layout/detial_title_bar"/>
+    <TextView
+        android:id="@+id/tv_address_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="13dp"
+        android:layout_margin="8dp"
+        android:textColor="#b9b7b7"/>
+    <ListView
+        android:id="@+id/lv_address_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ListView>
+    <Button
+        android:id="@+id/btn_add_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="add_new_address"
+        android:background="#FF1A92E7"
+        android:text="添加新地址"
+        android:textColor="#fff"
+        android:textSize="17dp"/>
+</LinearLayout>

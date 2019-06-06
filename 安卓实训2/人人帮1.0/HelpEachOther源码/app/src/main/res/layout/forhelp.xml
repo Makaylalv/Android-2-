@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:text=" 特别提醒:"
+            android:textColor="#fff"
+            android:singleLine="true"
+            android:padding="3dp"
+            android:drawableRight="@drawable/forhelp_speaker"
+            android:background="#FF1A92E7"
+            android:textSize="13dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="22dp"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="3dp"
+            android:textSize="13dp"
+            android:text="由于平台限制，本应用不支持小费功能，敬请谅解！"
+            android:background="#FF1A92E7"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="25dp"
+        android:text="请选择您需要的帮助类型"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:drawableLeft="@drawable/bg_item_left1"
+        android:drawableRight="@drawable/bg_item_left1"
+        android:textColor="#FF1A92E7"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="false"
+        android:foreground="?android:attr/selectableItemBackground">
+        <LinearLayout
+            android:id="@+id/ll_forhelp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/ll_item_1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/item_kuaidi"
+                    style="@style/helppager_item_choose"
+                    android:drawableTop="@drawable/bangkuaidi2"
+                    android:text="求取快递" />
+
+                <TextView
+                    android:id="@+id/item_waimai"
+                    style="@style/helppager_item_choose"
+                    android:drawableTop="@drawable/waimai"
+                    android:text="求取外卖" />
+
+                <TextView
+                    android:id="@+id/item_things"
+                    style="@style/helppager_item_choose"
+                    android:drawableTop="@drawable/maidongxi"
+                    android:text="求买东西" />
+
+                <TextView
+                    android:id="@+id/item_study"
+                    style="@style/helppager_item_choose"
+                    android:drawableTop="@mipmap/item_xuexi"
+                    android:text="求学习资料" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+               >
+                <TextView
+                    android:id="@+id/item_qiandao"
+                    style="@style/helppager_item_choose"
+                    android:drawableTop="@mipmap/item_qiandao"
+                    android:text="求上课签到" />
+
+                <TextView
+                    android:id="@+id/item_others"
+                    style="@style/helppager_item_choose"
+                    android:drawableTop="@mipmap/item_qita"
+                    android:text="其他" />
+
+                <TextView
+                    android:id="@+id/item_address"
+                    style="@style/helppager_item_choose"
+                    android:drawableTop="@mipmap/item_shouhuo"
+                    android:text="收货地址" />
+
+                <TextView
+                    android:id="@+id/item_settings"
+                    android:layout_marginTop="2dp"
+                    style="@style/helppager_item_choose"
+                    android:text=""  />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="400dp"
+                android:layout_width="match_parent">
+                <com.baidu.mapapi.map.MapView
+                    android:id="@+id/mapview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true">
+
+
+
+                </com.baidu.mapapi.map.MapView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

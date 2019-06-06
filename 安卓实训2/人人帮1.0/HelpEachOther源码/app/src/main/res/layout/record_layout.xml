@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#e6e6e6">
+        <RadioGroup
+            android:id="@+id/rg_record"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rg_helping"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="我正帮Ta"
+                android:textSize="12dp"
+                android:checked="true"
+                android:gravity="center"
+                android:button="@null"
+                android:drawablePadding="3dp"
+                android:background="@drawable/bg_record_selector"
+                android:padding="5dp"
+                android:textColor="@color/record_tab_txt_selector"
+                />
+            <RadioButton
+                android:id="@+id/rg_have_finish"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Ta正帮我"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:drawablePadding="3dp"
+                android:background="@drawable/bg_record_selector"
+                android:button="@null"
+                android:padding="5dp"
+                android:textColor="@color/record_tab_txt_selector" />
+        </RadioGroup>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_record"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

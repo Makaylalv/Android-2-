@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp"
+            android:layout_centerVertical="true"
+            app:cardUseCompatPadding="false"
+            android:foreground="?android:attr/selectableItemBackground">
+            <ImageView
+                android:id="@+id/help_delivery_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignStart="@+id/cv"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i_h"
+                android:layout_alignLeft="@+id/cv" />
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/help_delivery_writer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="14dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="#000"
+                android:text="让奇迹发生"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/help_delivery_things"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:text="帮取快递"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/help_delivery_tab"
+                    android:layout_width="60dp"
+                    android:layout_height="22dp"
+                    android:text="帮取快递"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ff5f1a"
+                    android:background="@drawable/bg_helppager"
+                    android:textSize="12dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/help_delivery_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:text="1分钟前"
+
+                android:textColor="#FF6B6867"
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/help_delivery_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="right"
+                android:text="哈尔滨工程大学"
+                android:layout_marginRight="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
