@@ -21,8 +21,7 @@
   - Email：[QQ邮箱：729395495@qq.com]
   - Github：[https://github.com/zhangjianqingGitHub](https://github.com/zhangjianqingGitHub)
 - 李子腾（市场总监、UI设计师、开发工程师、测试工程师）
-  - Email：[673105182@qq.com](mailto:673105182@qq.com)
-
+  - Email：[QQ邮箱：15210513545@qq.com]
 hhhh
 #一级标题
 ##二级标题
