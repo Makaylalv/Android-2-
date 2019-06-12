@@ -17,18 +17,19 @@
 - 张建青（项目经理、UI设计师、开发工程师、测试工程师）
   - Email：[QQ邮箱：729395495@qq.com]
   - Github：[https://github.com/zhangjianqingGitHub](https://github.com/zhangjianqingGitHub)
-- 李子腾（市场总监、UI设计师、开发工程师、测试工程师）
+- 李子腾（市场总监、开发工程师、测试工程师）
   - Email：[QQ邮箱：15210513545@qq.com]
-  #### 项目截图
+#### 项目截图
   
-<p>
+##### 引导页
+<p>        
 <img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/guide1.png" width=250 height=400 />
 <img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/guide2.png" width=250 height=400 />
 <img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/guide3.png" width=250 height=400 />
 </p>
 <p>
   
-  
+##### 欢迎界面，首页
 <p>
 <img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/splash.png" width=250 height=400 />
 <img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/%E4%B8%BB%E9%A1%B5%E9%9D%A2.png" width=250 height=400 />
