@@ -14,7 +14,7 @@
 为了您的隐私信息不被泄露，本APP专门设置了一道安全墙，即只有您与您的帮助者可以查看彼此的个人信息，当然您也可以匿名。<br>
 
 ### 项目地址
-- Github：[https://github.com/zhangjianqingGitHub/Android-2-/edit/master/README.md(https://github.com/zhangjianqingGitHub/Android-2-/edit/master/README.md))
+- Github：[https://github.com/zhangjianqingGitHub/Android-2-/edit/master/README.md](https://github.com/zhangjianqingGitHub/Android-2-/edit/master/README.md)
 
 hhhh
 #一级标题
