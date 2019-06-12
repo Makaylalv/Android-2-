@@ -1,6 +1,6 @@
-<img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/peoplepp.png"/>
+<img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/peoplepp.png" width=50 height=50/>
 
-#                                             2016级项目实训成果展示
+# 2016级项目实训成果展示
 
 ## 《人人帮》- Java与移动智能设备开发
 
@@ -20,8 +20,13 @@
   - Github：[https://github.com/zhangjianqingGitHub](https://github.com/zhangjianqingGitHub)
 - 李子腾（市场总监、UI设计师、开发工程师、测试工程师）
   - Email：[QQ邮箱：15210513545@qq.com]
-
-
+  #### 项目截图
+<p>
+<img src="./image/logo-欢迎页.png" width=250 height=400 />
+<img src="./image/首页.jpg" width=250 height=400 />
+<img src="./image/ta的帖子.png" width=250 height=400 />
+</p>
+<p>
 
 
 
