@@ -23,10 +23,10 @@
   
 ##### 1.引导页、欢迎界面
 <p>        
-<img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/guide1.png" width=250 height=400 />
-<img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/guide2.png" width=250 height=400 />
-<img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/guide3.png" width=250 height=400 />
-<img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/splash.png" width=250 height=400 />
+<img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/guide1.png" width=150 height=300 />
+<img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/guide2.png" width=150 height=300 />
+<img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/guide3.png" width=150 height=300 />
+<img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/splash.png" width=150 height=300 />
 </p>
 
   
