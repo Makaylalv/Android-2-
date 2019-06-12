@@ -41,14 +41,17 @@
 <img src=" https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/%E6%88%91%E7%9A%84.png" width=210 height=360 />
 </p>
 ##### 3.侧滑、个人信息设置、发布帮忙、帮忙详情页面
+<p>
 <img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/%E4%BE%A7%E6%BB%91%E9%A1%B5%E9%9D%A2.png " width=210 height=360 />
 <img src="https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png " width=210 height=360 />
 <img src=" https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/%E5%8F%91%E5%B8%83%E8%A6%81%E5%B8%AE%E5%8A%A9%E7%9A%84%E4%BA%8B%E9%A1%B9.png" width=210 height=360 />
 <img src=" https://github.com/zhangjianqingGitHub/Android-2-/blob/master/%E5%AE%89%E5%8D%93%E5%AE%9E%E8%AE%AD2/6.12-%E4%BA%BA%E4%BA%BA%E5%B8%AE%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B1%95%E7%A4%BA/%E4%BA%BA%E4%BA%BA%E5%B8%AE/APP%E6%88%AA%E5%9B%BE/%E5%B8%AE%E5%BF%99%E8%AF%A6%E6%83%85.png" width=210 height=360 />
+</p>
 
 ##### 4.
+<p>
   <img src=" " width=210 height=360 />
-
+</p>
 
 
 
