@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_player_status"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/tv_name"
+                android:layout_marginLeft="20dp"
+                android:text="视频名称"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/iv_battery"
+                android:src="@drawable/ic_battery_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#ffffff"
+                android:id="@+id/tv_system_time"
+                android:text="12:00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_player_top_control"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                android:background="@drawable/btn_voice_selecter"
+                android:id="@+id/btn_voice"
+                android:layout_width="60dp"
+                android:layout_height="40dp" />
+
+            <SeekBar
+                android:id="@+id/seekbar_voice"
+                android:progressDrawable="@drawable/progress_horizontal"
+                android:thumb="@drawable/progress_thumb"
+                android:minHeight="6dp"
+                android:maxHeight="6dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <Button
+                android:background="@drawable/btn_swich_player_selector"
+                android:id="@+id/btn_swich_player"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ll_bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_player_bottom_seekbar"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:text="0:00"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/tv_current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <SeekBar
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/seekbar_video"
+                android:progressDrawable="@drawable/progress_horizontal"
+                android:thumb="@drawable/progress_thumb"
+                android:minHeight="6dp"
+                android:maxHeight="6dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="20:00"
+                android:textColor="#ffffff"
+                android:layout_marginRight="8dp"
+                android:id="@+id/tv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/bg_player_bottom_control"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_marginRight="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_exit_selecter"
+                    android:id="@+id/btn_exit"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_video_pre_selecter"
+                    android:id="@+id/btn_video_pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_video_pause_selecter"
+                    android:id="@+id/btn_video_start_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_video_next_selecter"
+                    android:id="@+id/btn_video_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btn_video_siwch_screen"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_voice_siwch_screen_full_selecter" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
